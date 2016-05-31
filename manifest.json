@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "TEDDYfy",
+  "description": "This extension replaces all images with pictures of my awesome cat Teddy",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "cat.png",
+    "default_popup": "popup.html",
+    "default_title": "TEDDYfy!"
+  },
+  "permissions": [
+    "activeTab", "tabs",
+    "https://ajax.googleapis.com/"
+  ]
+}
